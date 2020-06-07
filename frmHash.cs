@@ -26,6 +26,8 @@ namespace appCriptografia
             SHA256.Text = obj.SHA256(txtMensaje.Text);
             SHA384.Text = obj.SHA384(txtMensaje.Text);
             SHA512.Text = obj.SHA512(txtMensaje.Text);
+            CIFRADO.Text = obj.SHA512((SALT.Text + (MD5.Text)));
+
         }
     }
 }

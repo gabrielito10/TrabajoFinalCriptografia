@@ -42,6 +42,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.SALT = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.CIFRADO = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label3
@@ -163,7 +166,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Brown;
-            this.label4.Location = new System.Drawing.Point(12, 120);
+            this.label4.Location = new System.Drawing.Point(28, 38);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 17);
             this.label4.TabIndex = 22;
@@ -171,16 +174,49 @@
             // 
             // SALT
             // 
-            this.SALT.Location = new System.Drawing.Point(126, 116);
+            this.SALT.Location = new System.Drawing.Point(31, 117);
             this.SALT.Name = "SALT";
-            this.SALT.Size = new System.Drawing.Size(269, 20);
+            this.SALT.Size = new System.Drawing.Size(244, 20);
             this.SALT.TabIndex = 23;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Brown;
+            this.label6.Location = new System.Drawing.Point(28, 100);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(47, 17);
+            this.label6.TabIndex = 24;
+            this.label6.Text = "SALT";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Brown;
+            this.label7.Location = new System.Drawing.Point(12, 402);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(417, 17);
+            this.label7.TabIndex = 25;
+            this.label7.Text = "MENSAJE CIFRADO HASH(SALT + MD5(CONTRASEÑA))";
+            // 
+            // CIFRADO
+            // 
+            this.CIFRADO.Location = new System.Drawing.Point(12, 422);
+            this.CIFRADO.Multiline = true;
+            this.CIFRADO.Name = "CIFRADO";
+            this.CIFRADO.Size = new System.Drawing.Size(776, 44);
+            this.CIFRADO.TabIndex = 26;
             // 
             // frmHash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 395);
+            this.ClientSize = new System.Drawing.Size(800, 481);
+            this.Controls.Add(this.CIFRADO);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.SALT);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
@@ -217,5 +253,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox SALT;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox CIFRADO;
     }
 }
