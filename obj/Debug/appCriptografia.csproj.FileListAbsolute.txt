@@ -1,0 +1,9 @@
+C:\Users\Gabriel\source\repos\appCriptografia\bin\Debug\appCriptografia.exe.config
+C:\Users\Gabriel\source\repos\appCriptografia\bin\Debug\appCriptografia.exe
+C:\Users\Gabriel\source\repos\appCriptografia\bin\Debug\appCriptografia.pdb
+C:\Users\Gabriel\source\repos\appCriptografia\obj\Debug\appCriptografia.csprojAssemblyReference.cache
+C:\Users\Gabriel\source\repos\appCriptografia\obj\Debug\appCriptografia.frmHash.resources
+C:\Users\Gabriel\source\repos\appCriptografia\obj\Debug\appCriptografia.Properties.Resources.resources
+C:\Users\Gabriel\source\repos\appCriptografia\obj\Debug\appCriptografia.csproj.GenerateResource.cache
+C:\Users\Gabriel\source\repos\appCriptografia\obj\Debug\appCriptografia.exe
+C:\Users\Gabriel\source\repos\appCriptografia\obj\Debug\appCriptografia.pdb
